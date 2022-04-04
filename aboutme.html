@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SVLHBX203T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SVLHBX203T');
+    </script>
+    <script src="https://kit.fontawesome.com/2bee46d9cb.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <title>About Me</title>
+</head>
+<body>
+    <a class = "skip" href="#main">Skip to Main Content</a>
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href = "index.html">The Love for Food</a></li>
+                <li><a href = "entrees.html">Must Try Entrées</a></li>
+                <li><a href = "desserts.html">Must Try Desserts</a></li>
+                <li class="active"><a href = "aboutme.html" >About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class = aboutme_main id="main">
+        <h1>About Me</h1>
+        <img id = 'profile_pic' src="images/ashish.png" width = "200" alt="Author: Ashish Vempati" />
+        <p>Helloooo and welcome to my website where I share foods that I want to try when I start traveling. </p>
+        <p>Before I get into why I love food so much, a little bit about myself. I am a college student at the wonderful University of Michigan. I was born in India and have lived in India, Canada, and several states within the United States. Raised in a very traditional family, I have grown to love my culture and the foods that have originated from India. However, that was just the beginning. Today, the food culture today is exploding. From traditional cuisines to fusions, many new dishes are created and shared. With options comes indecisiveness and is exactly why I decided to research and make a list of foods I want to try in the near future. </p>
+        <p>I hope that my list is appealing to you as well and wish you a very memorable food journey when you travel or spend time with your loved ones.</p>
+        <p>If you have any personal suggestions for the website, would like to work alongside me, or just wanna talk, feel free to to submit the contact form!</p>
+        <form
+            action="https://formspree.io/f/xgedzzra"
+            method="POST"
+        >
+            <fieldset>
+            <legend>Leave Me a Message!!!</legend>
+        
+            <label for="name_id">Name</label>
+            <input type="text" placeholder="Enter Name" id = "name_id" name="name" required>
+
+            <label for="email_id">Email</label>
+            <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+        
+            <label for="phone_id">Phone Number</label>
+            <input type="tel" name="phone" placeholder="123-456-7890" id = "phone_id" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+            <label for="country_id">Country</label>
+            <input type="text" name="country" placeholder="USA" id = "country_id" required>
+
+            <label for="occupation_id">Occupation</label>
+            <input type="text" name="occupation" placeholder="Student" id = "occupation_id">
+        
+            <label for="msg_id">Message</label>
+            <textarea placeholder="Enter your message" id = "msg_id" name="mesg" required></textarea><br>
+        
+            <input type="submit" value = "SEND SECRET MESSAGE...">
+            </fieldset>
+        </form>
+    </main>
+       <footer>
+        <a href="https://www.instagram.com/avempati01/" target="_blank" aria-label="instagram"><span class="fa-brands fa-instagram"></span></a>
+        <a href="https://www.linkedin.com/in/ashishvempati/" target="_blank" aria-label="linkedin"><span class="fa-brands fa-linkedin"></span></a>
+        <a href="https://www.snapchat.com/add/ashishvempati?share_id=MTM1NTgw&locale=en_US" target="_blank" aria-label="snapchat"><span class="fa-brands fa-snapchat"></span></a>
+        <p>Ashish Vempati &copy; 2022</p>
+    </footer>
+</body>
+</html>
