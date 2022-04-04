@@ -327,7 +327,7 @@ input[type=submit]:hover {
   }
 
    /*Turn off transition*/
-  a.skip, #profile_pic {
+  a.skip, #profile_pic, .flip-card-inner{
     -webkit-transition: initial; /* sets to default setting */
     transition: initial; /* sets to default setting */
     animation-duration: initial;
