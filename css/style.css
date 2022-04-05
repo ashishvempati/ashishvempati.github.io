@@ -21,6 +21,7 @@ body {
   z-index: 1;
   position:absolute;
   left: -500px;
+  top: 55px;
 }
 
 .nav_links{
@@ -115,7 +116,7 @@ div > p{
   margin: 10px;
 }
 
-div > img{
+a > img{
   width: 250px;
   height: 180px;
 }
@@ -232,7 +233,10 @@ input[type=submit]:hover {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner,
+.flip-card:focus-within .flip-card-inner,
+.flip-card:active .flip-card-inner{
   transform: rotateY(180deg);
 }
 
@@ -278,7 +282,7 @@ input[type=submit]:hover {
   a.skip:focus{
     position:absolute;
     left:0px;
-    top: 20px;
+    top: 55px;
   }
 
   form{
