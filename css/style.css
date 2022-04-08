@@ -156,6 +156,15 @@ footer span{
   color: #16a340;
 }
 
+.fa-circle-half-stroke:hover{
+  color: #2aabb4c7;
+}
+
+button{
+  background-color: transparent;
+  border: transparent;
+}
+
 form {
   border: 3px solid #000000;
   margin: 3vw;
@@ -363,52 +372,5 @@ input[type=submit]:hover {
     -webkit-transition: initial; /* sets to default setting */
     transition: initial; /* sets to default setting */
     animation-duration: initial;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-image: url("../images/background2.png");
-    background-color: #1f1f1f;
-  }
-
-  h1, h2, h3, a, a:link, a:visited, p, legend, label{
-    color: #FAF9F6;
-  }
-
-  nav li{
-    border: solid 1.5px #FAF9F6;
-  }
-
-  .active{
-  background-color: #064C45;
-  border: solid 3px #FAF9F6;
-  }
-
-  .flex_container .card_container,
-  .grid_container .card_container{
-    border: 4px solid #FAF9F6;
-  }
-
-  .fa-instagram:hover{
-    color: #f02692;
-  }
-
-  .fa-linkedin:hover{
-    color: #25a4e9;
-  }
-  
-  .fa-snapchat:hover{
-    color: #22e45c;
-  }
-
-  form {
-    border: 3px solid #FFFFFF;
-    background-color: #064C45c7;
-  }
-
-  .flip-card-back {
-    background-color: #064C45c7;
-    color: #FFFFFF;
   }
 }
