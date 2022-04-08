@@ -344,13 +344,10 @@ input[type=submit]:hover {
     font-size: 30px;
   }
   .skip{
-    left: -500px;
     top: 110px;
   }
 
   a.skip:focus{
-    position:absolute;
-    left:0px;
     top: 110px;
   }
 }
