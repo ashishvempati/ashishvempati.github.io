@@ -11,6 +11,16 @@ body {
   padding: 0;
 }
 
+.intro {
+  background-image: url("../images/parallex1.jpeg");
+  background-color: #FFFFFF;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .skip{
   display: inline-block;
   border: solid;
@@ -369,5 +379,10 @@ input[type=submit]:hover {
     -webkit-transition: initial; /* sets to default setting */
     transition: initial; /* sets to default setting */
     animation-duration: initial;
+  }
+
+  /*Turn off parallax*/
+  .intro{
+    background-attachment: initial;
   }
 }

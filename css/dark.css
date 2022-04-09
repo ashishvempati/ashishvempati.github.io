@@ -3,6 +3,11 @@ body {
   background-color: #1f1f1f;
 }
 
+.intro {
+  background-image: url("../images/parallex2.png");
+  background-color: #1f1f1f;
+}
+
 h1, h2, h3, a, button, a:link, a:visited, p, legend, label{
   color: #FAF9F6;
 }
